@@ -1,0 +1,149 @@
+[
+  {
+    "vendor": {
+      "fileName": "/js/vendor.js",
+      "fileSize": "41.34 MB",
+      "fileGzippedSize": "47.45 MB",
+      "fileMinifiedSize": "9.36 MB"
+    },
+    "mainFile": {
+      "fileName": "/js/react/app.js",
+      "fileSize": "11.98 MB",
+      "fileGzippedSize": "15.76 MB",
+      "fileMinifiedSize": "2.56 MB"
+    },
+    "workingModule": {
+      "fileName": "./resources/js/react/projects",
+      "fileSize": "1.48 MB",
+      "fileGzippedSize": "1.88 MB",
+      "fileMinifiedSize": "309.22 KB"
+    },
+    "createdTime": "2024-06-27T06:43:13.643Z"
+  },
+  {
+    "vendor": {
+      "fileName": "/js/vendor.js",
+      "fileSize": "41.34 MB",
+      "fileGzippedSize": "47.45 MB",
+      "fileMinifiedSize": "9.36 MB"
+    },
+    "mainFile": {
+      "fileName": "/js/react/app.js",
+      "fileSize": "11.98 MB",
+      "fileGzippedSize": "15.76 MB",
+      "fileMinifiedSize": "2.56 MB"
+    },
+    "workingModule": {
+      "fileName": "./resources/js/react/projects",
+      "fileSize": "1.48 MB",
+      "fileGzippedSize": "1.88 MB",
+      "fileMinifiedSize": "309.22 KB"
+    },
+    "createdTime": "2024-06-27T06:43:30.199Z"
+  },
+  {
+    "vendor": {
+      "fileName": "/js/vendor.js",
+      "fileSize": "41.34 MB",
+      "fileGzippedSize": "47.45 MB",
+      "fileMinifiedSize": "9.36 MB"
+    },
+    "mainFile": {
+      "fileName": "/js/react/app.js",
+      "fileSize": "11.98 MB",
+      "fileGzippedSize": "15.76 MB",
+      "fileMinifiedSize": "2.56 MB"
+    },
+    "workingModule": {
+      "fileName": "./resources/js/react/projects",
+      "fileSize": "1.48 MB",
+      "fileGzippedSize": "1.88 MB",
+      "fileMinifiedSize": "309.22 KB"
+    },
+    "createdTime": "2024-06-27T06:43:32.105Z"
+  },
+  {
+    "vendor": {
+      "fileName": "/js/vendor.js",
+      "fileSize": "41.34 MB",
+      "fileGzippedSize": "47.45 MB",
+      "fileMinifiedSize": "9.36 MB"
+    },
+    "mainFile": {
+      "fileName": "/js/react/app.js",
+      "fileSize": "11.98 MB",
+      "fileGzippedSize": "15.76 MB",
+      "fileMinifiedSize": "2.56 MB"
+    },
+    "workingModule": {
+      "fileName": "./resources/js/react/projects",
+      "fileSize": "1.48 MB",
+      "fileGzippedSize": "1.88 MB",
+      "fileMinifiedSize": "309.22 KB"
+    },
+    "createdTime": "2024-06-27T06:46:44.033Z"
+  },
+  {
+    "vendor": {
+      "fileName": "/js/vendor.js",
+      "fileSize": "41.34 MB",
+      "fileGzippedSize": "47.45 MB",
+      "fileMinifiedSize": "9.36 MB"
+    },
+    "mainFile": {
+      "fileName": "/js/react/app.js",
+      "fileSize": "11.98 MB",
+      "fileGzippedSize": "15.76 MB",
+      "fileMinifiedSize": "2.56 MB"
+    },
+    "workingModule": {
+      "fileName": "./resources/js/react/projects",
+      "fileSize": "1.48 MB",
+      "fileGzippedSize": "1.88 MB",
+      "fileMinifiedSize": "309.22 KB"
+    },
+    "createdTime": "2024-06-27T06:47:12.883Z"
+  },
+  {
+    "vendor": {
+      "fileName": "/js/vendor.js",
+      "fileSize": "41.34 MB",
+      "fileGzippedSize": "47.45 MB",
+      "fileMinifiedSize": "9.36 MB"
+    },
+    "mainFile": {
+      "fileName": "/js/react/app.js",
+      "fileSize": "11.98 MB",
+      "fileGzippedSize": "15.76 MB",
+      "fileMinifiedSize": "2.56 MB"
+    },
+    "workingModule": {
+      "fileName": "./resources/js/react/projects",
+      "fileSize": "1.48 MB",
+      "fileGzippedSize": "1.88 MB",
+      "fileMinifiedSize": "309.22 KB"
+    },
+    "createdTime": "2024-06-27T07:31:23.173Z"
+  },
+  {
+    "vendor": {
+      "fileName": "/js/vendor.js",
+      "fileSize": "40.73 MB",
+      "fileGzippedSize": "46.57 MB",
+      "fileMinifiedSize": "9.22 MB"
+    },
+    "mainFile": {
+      "fileName": "/js/react/app.js",
+      "fileSize": "9.48 MB",
+      "fileGzippedSize": "12.39 MB",
+      "fileMinifiedSize": "2.09 MB"
+    },
+    "workingModule": {
+      "fileName": "./resources/js/react/projects",
+      "fileSize": "600.76 KB",
+      "fileGzippedSize": "728.25 KB",
+      "fileMinifiedSize": "131.71 KB"
+    },
+    "createdTime": "2024-08-23T02:55:18.391Z"
+  }
+]
