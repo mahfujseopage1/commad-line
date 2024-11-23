@@ -7,7 +7,7 @@
     "start": "node main.mjs"
   },
   "engines": {
-    "node": "14.x"
+    "node": "22.x"
   },
   "keywords": [],
   "author": "",
