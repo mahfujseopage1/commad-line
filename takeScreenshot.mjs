@@ -1,5 +1,5 @@
-
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
+import chromium from 'chrome-aws-lambda';
 
 
 export const takeScreenshot = async (body) => {
@@ -10,6 +10,7 @@ export const takeScreenshot = async (body) => {
         width: body?.width || 1200,
         height: body?.height || 800,
       },
+      executablePath: await chromium.executablePath,
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
