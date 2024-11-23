@@ -2,9 +2,9 @@
   "name": "commad",
   "version": "1.0.0",
   "description": "",
-  "main": "mian.mjs",
+  "main": "main.mjs",
   "scripts": {
-    "start": "node mian.mjs"
+    "start": "node main.mjs"
   },
   "keywords": [],
   "author": "",
