@@ -3,7 +3,6 @@ import { runCommand } from './index.mjs';
 import { trackModuleData } from './trackModuleData.mjs';
 import { formatHttp } from './others.mjs';
 import cors from 'cors';
-import puppeteer from 'puppeteer';
 import { takeScreenshot } from './takeScreenshot.mjs';
 import { laravelCpuUse } from './laravelCpuUse.mjs';
 const app = express();
@@ -46,37 +45,37 @@ app.get('/laravel-cpu', async (req, res) => {
 
 // Reverse proxy route
 
-app.get('/proxy', async (req, res) => {
-  const url = req.query.url; // Pass the external URL as a query parameter
+// app.get('/proxy', async (req, res) => {
+//   const url = req.query.url; // Pass the external URL as a query parameter
 
-  if (!url) {
-    return res.status(400).send('Missing URL parameter');
-  }
+//   if (!url) {
+//     return res.status(400).send('Missing URL parameter');
+//   }
 
-  try {
-    // Launch Puppeteer
-    const browser = await puppeteer.launch({
-      headless: false,
+//   try {
+//     // Launch Puppeteer
+//     const browser = await puppeteer.launch({
+//       headless: false,
 
-    });
-    const page = await browser.newPage();
+//     });
+//     const page = await browser.newPage();
 
-    // Go to the URL
-    await page.goto(url, { waitUntil: 'networkidle2' });
+//     // Go to the URL
+//     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    // Get the page content
-    const pageContent = await page.content();
+//     // Get the page content
+//     const pageContent = await page.content();
 
-    // Close the browser
-    await browser.close();
+//     // Close the browser
+//     await browser.close();
 
-    // Send the HTML content to the client
-    res.send(pageContent);
-  } catch (error) {
-    console.error('Error scraping the page:', error);
-    res.status(500).send('Error scraping the page');
-  }
-});
+//     // Send the HTML content to the client
+//     res.send(pageContent);
+//   } catch (error) {
+//     console.error('Error scraping the page:', error);
+//     res.status(500).send('Error scraping the page');
+//   }
+// });
 
 
 app.post('/take-screenshot', async (req, res) => {
